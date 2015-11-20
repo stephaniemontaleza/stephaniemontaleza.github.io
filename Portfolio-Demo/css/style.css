@@ -1,0 +1,206 @@
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+	background-color: #efba84;
+	font-family: 'Josefin Sans', sans-serif;
+	line-height: 1em;
+}
+
+
+@media screen and (min-width: 700px) {
+	
+	body {
+		background-color: #f2f2f2;
+	}
+}
+
+.portfolio-navigation { 
+	height: 50px;
+	background-color: #000080;
+}
+
+.navigation-item {
+		display:inline-block;
+
+}
+
+.navigation-menu {
+	text-align:center;
+	padding: 20px;
+}
+
+
+.navigation-link {
+	padding: 0 10px;
+	text-decoration: none;
+	color: #9999ff;
+	transition: color 1s;
+	font-family: serif;
+}
+
+.navigation-link:hover{
+color:white;
+}
+
+.is-active {
+	border-bottom: 5px solid white;
+}
+
+.portfolio-container {
+	background-color: white;
+	width: 240px;
+	height: 350px;
+	margin:auto;
+}
+
+
+@media screen and (min-width: 480px) {
+	.portfolio-container {
+		width:80%;
+		max-width: 1000px;
+	}
+}
+
+hr {
+	color: red;
+	opacity: .6;
+}
+
+.headline-main {
+	font-size: 36px;
+	font-weight: 700;
+	padding: 20px 0px;
+}
+
+.headline-section {
+	padding: 5px 0;
+
+}
+
+.contact-link {
+	display: none;
+	text-decoration: none;
+	color: #b8b8b8;
+}
+
+@media screen and (min-width: 520px) {
+	.contact-link {
+		display: block;
+	}
+}
+
+.contact-link:hover {
+	color: #333333;
+}
+
+.headline-section {
+	font-size: 22px;
+	border-bottom:2px solid #d2d2d2;
+}
+
+/*Here we're hiding the resume-section initially because
+we don't want it to show up on mobile.*/
+.resume-section {
+	display: none;
+}
+
+/*Now we've .*/
+@media screen and (min-width: 430px) {
+	.resume-section {
+		display: block;
+	}
+}
+
+h1{ 
+text-align:center;
+font-size: 400%;
+letter-spacing: 5px;
+padding-top: 30px;
+padding-bottom: 30px;
+color: #9999ff;
+font-family: Serif;
+}
+
+.picview {
+padding-left:95px;
+padding-top: 20px;
+
+}
+
+.facebook {
+	padding-left: 180px;
+	padding-bottom: 15px;
+}
+
+.twitter {
+	padding-left: 150px;
+	padding-top: 20px;
+}
+
+.instagram { 
+padding-left: 130px;
+padding-bottom: 10px;
+}
+
+.yahoo {
+padding-left: 180px;
+padding-bottom: 20px;
+}
+
+.aboutme-container {
+	background-color: white;
+	width: 740px;
+	height: 250px;
+	border-style: dashed;
+    border-width: 5px;
+    margin: 50px 50px 50px 240px;
+    padding-top: 40px;
+    padding-left: 50px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    font-family: serif;
+}
+
+h2{
+	text-align: center;
+	padding-top: 30px;
+	font-size: 40px;
+	font-family: Serif;
+}
+
+div.img {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #0000ff;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}	
+
+div.img img {
+    display: inline;
+    margin: 5px;
+    border: 1px solid #ffffff;
+}
+
+div.img a:hover img {
+    border: 1px solid #0000ff;
+}
+
+div.desc {
+  text-align: center;
+  font-weight: normal;
+  width: 120px;
+  margin: 5px;
+}
+
+
+
+
+
