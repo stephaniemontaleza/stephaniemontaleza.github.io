@@ -5,17 +5,9 @@
 }
 
 body {
-	background-color: #efba84;
 	font-family: 'Josefin Sans', sans-serif;
 	line-height: 1em;
-}
-
-
-@media screen and (min-width: 700px) {
-	
-	body {
-		background-color: #f2f2f2;
-	}
+	background-color: #CCCCFF;
 }
 
 .portfolio-navigation { 
@@ -50,18 +42,166 @@ color:white;
 	border-bottom: 5px solid white;
 }
 
-.portfolio-container {
-	background-color: white;
-	width: 240px;
-	height: 350px;
-	margin:auto;
+
+@media screen and (min-width: 430px) {
+
+	.colorful{
+width: 70%;
+height:60%;
+margin: auto;
+padding-left: 60px;
 }
 
+h1{ 
+text-align:center;
+font-size: 200%;
+letter-spacing: 5px;
+padding-top: 30px;
+padding-bottom: 30px;
+color: #6600CC;
+font-family: Serif;
+}
 
-@media screen and (min-width: 480px) {
-	.portfolio-container {
-		width:80%;
-		max-width: 1000px;
+.facebook {
+	padding-top: 10px;
+	width: 20%;
+	height: 20%;
+	padding-left: 195px;
+}
+
+.twitter {
+	padding-top: 20px;
+	width: 25%;
+	height: 25%;
+	padding-left: 180px;
+}
+
+.instagram { 
+padding-bottom: 10px;
+width: 25%;
+height: 25%;
+padding-left: 185px;
+}
+
+.yahoo {
+padding-bottom: 20px;
+width: 20%;
+height: 20%;
+padding-left: 200px;
+}
+
+.aboutme-container {
+	background-color: white;
+	width: 50%;
+	height: 50%;
+	border-style: dashed;
+    border-width: 5px;
+    margin: 30px 30px 30px 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top:30px;
+    padding-bottom: 30px;
+    font-size: 100%;
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-family: serif;
+}
+
+h2{
+	text-align: center;
+	padding-top: 30px;
+	font-size: 200%;
+	font-family: Serif;
+	color: #6600CC;
+}
+
+h3{
+	text-align: center;
+	padding-top: 30px;
+	font-size: 200%;
+	font-family: Serif;
+	color: #6600CC;
+}
+
+	.girl{
+		padding-left: 100px;
+		padding-top: 30px;
+		width: 60%;
+		height: 60%;
+	}
+
+	.facing-yourself{
+		padding-left: 120px;
+		padding-top: 5px;
+		width: 60%;
+		height: 60%;
+	}
+
+	.me{
+	width: 100%;
+	height:50%;
+	margin: auto;
+	}
+
+	 p{ 
+	    text-align: center;
+	    padding-bottom: 50px;
+	    padding-top: 10px;
+		font-size: 30px;
+		font-family: Serif;
+		color: #6600CC;
+		line-height: 30px;
+	}
+	.evil-eye{
+		padding-left: 150px;
+		padding-top: 5px;
+		width: 50%;
+		height: 50%;
+	}
+
+	.genious-1{
+		padding-left: 50px;
+		width: 80%;
+		height: 40%;
+	}
+
+	.genious-2{
+		padding-left: 50px;
+		width: 80%;
+		height: 40%;
+	}
+
+	.lady{
+		padding-left: 80px;
+		width: 70%;
+		height: 50%;
+	}
+
+	.trapped{
+		padding-left: 150px;
+		width: 50%;
+		height: 50%;
+	}
+
+	.still-life2{
+		padding-left: 150px;
+		width: 50%;
+		height:50%;
+	}
+
+	h4{
+		text-align: center;
+		padding-top: 30px;
+		font-size: 200%;
+		font-family: Serif;
+		color: #6600CC;
+	}
+
+	.game-design{
+		padding-left: 30px;
+		padding-top: 30px;
+		width: 90%;
+		height: 80%;
 	}
 }
 
@@ -71,7 +211,7 @@ hr {
 }
 
 .headline-main {
-	font-size: 36px;
+	font-size: 36px; 
 	font-weight: 700;
 	padding: 20px 0px;
 }
@@ -87,9 +227,176 @@ hr {
 	color: #b8b8b8;
 }
 
-@media screen and (min-width: 520px) {
+@media screen and (min-width: 600px) {
 	.contact-link {
 		display: block;
+	}
+
+	.colorful{
+width: 70%;
+height:20%;
+padding-left: 100px;
+margin: auto;
+}
+
+.me{
+	width: 100%;
+	height:50%;
+	margin: auto;
+	}
+
+h1{ 
+text-align:center;
+font-size: 300%;
+letter-spacing: 5px;
+padding-top: 30px;
+padding-bottom: 30px;
+color: #6600CC;
+font-family: Serif;
+}
+
+.facebook {
+	padding-top: 10px;
+	width: 12%;
+	height: 12%;
+
+	
+}
+
+.twitter {
+	padding-top: 20px;
+	width: 15%;
+	height: 15%;
+	
+}
+
+.instagram { 
+padding-top: 5px;
+width: 14%;
+height: 14%;
+}
+
+.yahoo {
+padding-bottom: 30px;
+width: 11%;
+height: 11%;
+}
+
+.aboutme-container {
+	background-color: white;
+	width: 50%;
+	height: 50%;
+	border-style: dashed;
+    border-width: 5px;
+    margin: 30px 30px 30px 150px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top:30px;
+    padding-bottom: 30px;
+    font-size: 100%;
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-family: serif;
+	}
+
+	h2{
+	text-align: center;
+	padding-top: 30px;
+	font-size: 300%;
+	font-family: Serif;
+	color: #6600CC;
+}
+
+	h3{
+	text-align: center;
+	padding-top: 30px;
+	font-size: 300%;
+	font-family: Serif;
+	color: #6600CC;
+}
+
+	.girl{
+		padding-left: 170px;
+		padding-top: 30px;
+		width:50%;
+		height:50%;
+	}
+
+
+	.facing-yourself{
+		padding-left: 200px;
+		padding-top: 5px;
+		width: 50%;
+		height: 50%;
+	}
+
+	 p{ 
+	    text-align: center;
+	    padding-bottom: 50px;
+	    padding-top: 10px;
+		font-size: 30px;
+		font-family: Serif;
+		color: #6600CC;
+		line-height: 30px;
+	}
+	.evil-eye{
+		padding-left: 220px;
+		padding-top: 5px;
+		width: 50%;
+		height:70%;
+	}
+
+	.genious-1{
+		padding-left: 110px;
+		width: 70%;
+		height: 50%;
+	}
+
+	.genious-2{
+		padding-left: 110px;
+		width: 70%;
+		height:50%;
+	}
+
+	.lady{
+		padding-left: 190px;
+		width: 50%;
+		height: 50%;
+	}
+
+	.trapped{
+		padding-left: 190px;
+		width: 50%;
+		height: 50%;
+	}
+
+	.still-life2{
+		padding-left: 190px;
+		width: 50%;
+		height: 50%;
+	}
+
+	h4{
+		text-align: center;
+		padding-top: 30px;
+		font-size: 300%;
+		font-family: Serif;
+		color: #6600CC;
+	}
+
+	h5{
+		text-align: center;
+		padding-top: 30px;
+		font-size: 300%;
+		font-family: Serif;
+		color: #6600CC;
+	}
+
+	.game-design{
+		padding-left: 80px;
+		padding-top: 30px;
+		width: 80%;
+		height: 60%;
 	}
 }
 
@@ -109,97 +416,186 @@ we don't want it to show up on mobile.*/
 }
 
 /*Now we've .*/
-@media screen and (min-width: 430px) {
+@media screen and (min-width: 768px) {
 	.resume-section {
 		display: block;
 	}
+
+	.colorful{
+width: 60%;
+height:10%;
+margin: auto;
+padding-left: 250px;
 }
+
+.me{
+	width: 100%;
+	height:50%;
+	margin: auto;
+	}
+
 
 h1{ 
 text-align:center;
 font-size: 400%;
 letter-spacing: 5px;
-padding-top: 30px;
+padding-top: 40px;
 padding-bottom: 30px;
-color: #9999ff;
+color: #6600CC;
 font-family: Serif;
 }
 
-.picview {
-padding-left:95px;
-padding-top: 20px;
-
-}
-
 .facebook {
-	padding-left: 180px;
-	padding-bottom: 15px;
+	padding-bottom: 20px;
+	width: 7%;
+	height: 7%;
 }
 
 .twitter {
-	padding-left: 150px;
 	padding-top: 20px;
+	width: 9%;
+	height: 9%;
 }
 
 .instagram { 
-padding-left: 130px;
-padding-bottom: 10px;
+padding-top: 5px;
+width: 8%;
+height: 8%;
 }
 
 .yahoo {
-padding-left: 180px;
-padding-bottom: 20px;
+width: 6%;
+height: 6%;
 }
 
 .aboutme-container {
 	background-color: white;
-	width: 740px;
-	height: 250px;
+	width: 50%;
+	height: 50%;
 	border-style: dashed;
     border-width: 5px;
-    margin: 50px 50px 50px 240px;
-    padding-top: 40px;
-    padding-left: 50px;
-    font-size: 20px;
-    letter-spacing: 2px;
-    line-height: 30px;
+    margin: 30px 30px 30px 300px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top:30px;
+    padding-bottom: 30px;
+    font-size: 100%;
+    letter-spacing: 1px;
+    line-height: 20px;
     font-family: serif;
 }
 
 h2{
 	text-align: center;
 	padding-top: 30px;
-	font-size: 40px;
+	font-size: 300%;
 	font-family: Serif;
+	color: #6600CC;
 }
 
-div.img {
-    margin: 5px;
-    padding: 5px;
-    border: 1px solid #0000ff;
-    height: auto;
-    width: auto;
-    float: left;
-    text-align: center;
-}	
-
-div.img img {
-    display: inline;
-    margin: 5px;
-    border: 1px solid #ffffff;
+	h3{
+	text-align: center;
+	padding-top: 30px;
+	font-size: 300%;
+	font-family: Serif;
+	color: #6600CC;
 }
 
-div.img a:hover img {
-    border: 1px solid #0000ff;
-}
+	h5{
+		text-align: center;
+		padding-top: 30px;
+		font-size: 300%;
+		font-family: Serif;
+		color: #6600CC;
+	}
 
-div.desc {
-  text-align: center;
-  font-weight: normal;
-  width: 120px;
-  margin: 5px;
-}
+.girl{
+		padding-left: 350px;
+		padding-top: 30px;
+		width: 50%;
+		height: 50%;
+	}
 
+
+	.facing-yourself{
+		padding-left: 300px;
+		padding-top: 5px;
+		width: 50%;
+		height: 50%;
+	}
+
+	 p{ 
+	    text-align: center;
+	    padding-bottom: 50px;
+	    padding-top: 10px;
+		font-size: 30px;
+		font-family: Serif;
+		color: #6600CC;
+		line-height: 30px;
+	}
+	
+	.evil-eye{
+		padding-left: 350px;
+		padding-top: 5px;
+		width: 50%;
+		height: 500%;
+	}
+
+	.genious-1{
+		padding-left: 220px;
+		width: 70%;
+		height: 50%;
+	}
+
+	.genious-2{
+		padding-left: 220px;
+		width: 70%;
+		height:50%;
+	}
+
+	.lady{
+		padding-left: 320px;
+		width: 50%;
+		height: 50%;
+	}
+
+	.trapped{
+		padding-left: 320px;
+		width: 50%;
+		height: 50%;
+	}
+
+	.still-life2{
+		padding-left: 320px;
+		width: 50%;
+		height: 50%;
+	}
+
+	h4{
+		text-align: center;
+		padding-top: 30px;
+		font-size: 50px;
+		font-family: Serif;
+		color: #6600CC;
+	}
+
+	h5{
+		text-align: center;
+		padding-top: 30px;
+		font-size: 50px;
+		font-family: Serif;
+		color: #6600CC;
+	}
+
+	.game-design{
+		padding-left: 130px;
+		padding-top: 30px;
+		width: 80%;
+		height: 60%;
+	}
+
+	
+}
 
 
 
